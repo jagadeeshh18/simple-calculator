@@ -1,5 +1,5 @@
 def calculator():
-    print("🧮 Simple Calculator")
+    print(" Simple Calculator")
     print("Operations: +  -  *  /")
     
     try:
@@ -17,16 +17,17 @@ def calculator():
             if num2 != 0:
                 result = num1 / num2
             else:
-                print("❌ Cannot divide by zero")
+                print(" Can't be divided by zero")
                 return
         else:
-            print("❌ Invalid operation")
+            print(" Invalid operation")
             return
 
-        print(f"✅ Result: {result}")
+        print(f" Result: {result}")
 
     except ValueError:
-        print("❌ Invalid input. Please enter numbers only.")
+        print(" Invalid input ! Please enter numbers only.")
 
 if __name__ == "__main__":
     calculator()
+
